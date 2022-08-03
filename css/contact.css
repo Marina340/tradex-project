@@ -1,0 +1,82 @@
+/* reset style*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+li {
+    list-style: none;
+    color: white;
+}
+/* globel*/
+.overlay img{
+    filter: brightness(0.5);
+}
+.overlay {
+    background-color:rgba(0, 0, 0, 0.9) ;
+}
+p{
+    color: gray;
+}
+/*custom style*/
+.headsocial{
+    border-right: 1px solid white;
+}
+.nav2 a{
+    color:#1a1a1a;
+    font-weight: 600;
+}
+.copyright {
+    cursor: pointer;
+    color: rgb(12, 101, 237);
+    font-size: small;
+    font-weight: bold;
+}
+.cl:hover {
+    color: grey;
+}
+.links a {
+    margin: 6px;
+}
+.container-fluid li {
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.cont img{
+    width:100%;
+}
+.cont{
+    width: 25%;
+}
+.coll{
+    width: 70%;
+}
+.container-fluid p {
+    font-size: x-large;
+    margin: 15px;
+    padding: 5px;
+    color: white;
+    margin-left: 100px;
+}
+
+.meet {
+    background-color: rgb(12, 101, 237);
+    padding: 40px;
+    font-weight: bold;
+    margin: 0%;
+}
+.bb{
+    color:#1a1a1a !important;
+    background-color: #fff !important;
+}
+.bb:hover{
+    color: white !important;
+    background-color: #0c65ed !important;
+}

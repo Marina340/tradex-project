@@ -1,0 +1,128 @@
+@media (max-width:800px){
+    .d-flex{
+        flex-wrap:wrap !important;
+    }
+    .nav2{
+        width: 100%;
+    }
+    .detail{
+       width: 50%;
+    }
+    .detailimg{
+        width: 50%;
+    }
+    .detailtext{
+        width: 100%;
+        display: block;
+    }
+    .short,.tail,.short1,.tail1{
+        display: none;
+    }
+    .detailicon{
+        width: 10%;
+    }
+    .detailcon{
+        width: 70%;
+    }
+    .front-box h3{
+        font-size: 10px;
+    }
+    .front-team{
+        bottom: 100px;
+    } 
+    .title::after {
+        left: 220px;
+    }
+    .nav{
+        display: block;
+        width: 100%;
+    }
+    .nav i{
+        padding-left: 20px;
+    }
+    .models li{
+        padding: 0;
+        margin-left: 0px;
+    }
+    .blogList{
+        width: 100%;
+    }
+    .members .col{
+        width: 100% !important;
+    }
+    .forminput label{
+        position: absolute;
+        padding-left:13%;
+        padding-top: 12px;
+    }
+    
+    .forminput input{
+        padding-left:20%;
+    }
+}
+@media (max-width:500px){
+    .d-flex{
+        flex-wrap:wrap;
+    }
+    .detail{
+       width: 100%;
+       display: block;
+    }
+    .detailimg{
+        width: 100%;
+        display: block;
+    }
+    .detailtext{
+        width: 100%;
+        display: block;
+    }
+    .short,.tail,.short1,.tail1{
+        display: none;
+    }
+    .detailicon{
+        width: 10%;
+    }
+    .detailcon{
+        width: 70%;
+    }
+    .front-box h3{
+        font-size: 10px;
+    }
+    .front-team{
+        bottom: 100px;
+    } 
+    .title::after {
+        left: 220px;
+    }
+    .nav{
+        display: block;
+        width: 100%;
+    }
+    .nav i{
+        padding-left: 20px;
+    }
+    .models li{
+        padding: 0;
+        margin-left: 0px;
+    }
+    .blogList{
+        width: 100%;
+    }
+    .members .col{
+        width: 100% !important;
+    }
+    .forminput label{
+        position: absolute;
+        padding-left:13%;
+        padding-top: 12px;
+    }
+}
+@media (min-width: 0px)and(max-width:300px){
+    .title::after {
+        left: 100px;
+    }
+    .front-box h3{
+        font-size: 10px;
+    }
+
+}
